@@ -1,5 +1,6 @@
-
-
+/*
+    HarrisonOg CSS
+*/
 
 body {
     margin: 60px auto;
@@ -26,11 +27,6 @@ h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -39,6 +35,16 @@ footer {
 .emailAddress {
     text-decoration: underline;
     color: blue;
+}
+
+span.headlineDescription{
+    font-family: 'monospace';
+}
+
+/* Projects */
+span.projectDescription{
+    font-size: .9em;
+    font-family: 'monospace';
 }
 
 /* Blog stuff */
