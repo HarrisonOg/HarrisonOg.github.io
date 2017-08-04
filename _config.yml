@@ -2,3 +2,5 @@ name: Harrison Oglesby
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-hacker
+# title: [The title of your site]
+# description: 
