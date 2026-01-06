@@ -91,6 +91,19 @@ defaults:
       layout: single
       author_profile: true
 
+# Jekyll Compose configuration
+jekyll_compose:
+  default_front_matter:
+    posts:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      categories: []
+      tags: []
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
