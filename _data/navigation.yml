@@ -1,0 +1,6 @@
+# Main navigation links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Posts"
+    url: /posts/
