@@ -28,6 +28,9 @@ url: "https://harrisonog.github.io" # the base hostname & protocol for your site
 github_username: HarrisonOg
 
 # Build settings
+# For local development with the gem
+# theme: minimal-mistakes-jekyll
+# For GitHub Pages deployment (uncomment the line below and comment out theme: above)
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 plugins:
   - jekyll-include-cache
