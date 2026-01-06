@@ -28,7 +28,9 @@ url: "https://harrisonog.github.io" # the base hostname & protocol for your site
 github_username: HarrisonOg
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+plugins:
+  - jekyll-include-cache
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Sass/SCSS settings
