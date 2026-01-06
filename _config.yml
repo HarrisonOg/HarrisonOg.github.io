@@ -31,11 +31,15 @@ github_username: HarrisonOg
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+# Sass/SCSS settings
+sass:
+  quiet_deps: true  # Suppress deprecation warnings from theme dependencies
+  style: compressed
+
 # Site Author
 author:
-  name: "Harrison Oglesby"
   avatar: # "/assets/images/bio-photo.jpg"
-  bio: "Android Developer | Web Developer | Hardware Enthusiast"
+  bio: "Android engineer building thoughtful software — and tinkering with hardware, games, and ideas on the side."
   location: "San Francisco Bay Area"
   email: "oglesby.harrison@gmail.com"
   links:
